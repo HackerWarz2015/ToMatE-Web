@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+  <meta charset="UTF-8">
+  <title>ToMatE</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div>
+  <header>
+    <img id="ToMatE-logo" src="img/ToMatE-logo2.png" alt="">
+    <p id="logout">ログアウト</p>
+  </header>
+  <div id="user-prof" class="container">
+      <img id="user-icon" class="img-circle col-lg-offset-2 float-left" src="img/default-icon-1.png" alt="ユーザーのアイコン" width="100px" height="100px">
+      <h1 id="user-name" class="col-lg-3">三井稔之</h1>
+      <div id="user-steps-wrap" class="col-lg-2">
+        <h2>Steps</h2>
+        <p id="user-step" class="text-right">136歩</p>
+      </div>
+  </div>
+
+  <div class="container">
+    <div id="data-tab-wrap">
+      <div class="data-tab tab">
+        <div class="tab-title text-center">
+          <ul class="nav nav-tabs">
+            <li class="active col-lg-3">
+              <a href="#data-tab-Steps" data-toggle="tab"><div class="tab-tip">Steps</div></a>
+            </li>
+            <li class="col-lg-3">
+              <a href="#data-tab-Friend" data-toggle="tab"><div class="tab-tip">Friend</div></a>
+            </li>
+            <li class="col-lg-3">
+              <a href="#data-tab-Task" data-toggle="tab"><div class="tab-tip">Task</div></a>
+            </li>
+            <li class="col-lg-3">
+              <a href="#data-tab-Reward" data-toggle="tab"><div class="tab-tip">Reward</div></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content">
+            <div id="data-tab-Steps" class="tab-pane active">
+              <div id="step-card">
+               <table class="table-bordered">
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                </tr>
+                <tr>
+                  <th>6</th>
+                  <th>7</th>
+                  <th>8</th>
+                  <th>9</th>
+                  <th>10</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div id="data-tab-Friend" class="col-lg-12 tab-pane">
+            <div class="friend-row col-lg-12">
+            <div class="friend  col-lg-offset-1 col-lg-4">
+                <img class="friend-icon img-circle float-left" src="img/default-icon-1.png" alt="フレンドユーザーのアイコン" width="100px" height="100px">
+                <h2 class="friend-name">三浦和也</h2>
+              <p class="friend-step">147歩</p>
+            </div>
+            <div class="friend col-lg-offset-2 col-lg-4">
+              <img class="friend-icon img-circle float-left" src="img/default-icon-2.png" alt="フレンドユーザーのアイコン" width="100px" height="100px">
+              <h2 class="friend-name">桐井祐樹</h2>
+              <p class="friend-step">182歩</p>
+            </div>
+              </div>
+            <div class="friend-row col-lg-12">
+            <div class="friend col-lg-offset-1 col-lg-4">
+              <img class="friend-icon img-circle float-left" src="img/default-icon-3.png" alt="フレンドユーザーのアイコン" width="100px" height="100px">
+              <h2 class="friend-name">馬場南実</h2>
+              <p class="friend-step">57歩</p>
+          </div>
+            </div>
+          </div>
+          <div id="data-tab-Task" class="tab-pane col-lg-12">
+            <div class="task-list">
+              <div class="list-section">
+                <div class="not-done">
+                  <h3 class="section-title col-lg-12">未完了</h3>
+                  <div class="task col-lg-4">
+                    <p class="point circle-B">1</p>
+                    <h4 class="task-name">アプリの完成</h4>
+                    <p class="limit-time">2015/6/9</p>
+                    <p class="rest-time">あと2日</p>
+                  </div>
+                  <div class="task col-lg-4">
+                    <p class="point circle-G">6</p>
+                    <h4 class="task-name">情報可視化のレポート</h4>
+                    <p class="limit-time">2015/6/15</p>
+                    <p class="rest-time">あと8日</p>
+                  </div>
+                  <div class="task col-lg-4">
+                    <p class="point circle-R">5</p>
+                    <h4 class="task-name">データベース概論の課題</h4>
+                    <p class="limit-time">2015/6/18</p>
+                    <p class="rest-time">あと11日</p>
+                  </div>
+                </div>
+               </div>
+              <div class="list-section">
+                <div class="done">
+                  <h3 class="section-title col-lg-12">完了</h3>
+                  <div class="task col-lg-4">
+                    <p class="point circle-R">10</p>
+                    <h4 class="task-name">アプリの完成</h4>
+                    <p class="isdone">完了日</p>
+                    <p class="done-time">2015/6/8</p>
+                  </div>
+                  <div class="task col-lg-4">
+                    <p class="point circle-G">3</p>
+                    <h4 class="task-name">情報可視化のレポート</h4>
+                    <p class="isdone">完了日</p>
+                    <p class="done-time">2015/6/8</p>
+                  </div>
+                  <div class="task col-lg-4">
+                    <p class="point circle-B">1</p>
+                    <h4 class="task-name">データベース概論の課題</h4>
+                    <p class="isdone">完了日</p>
+                    <p class="done-time">2015/6/8</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div id="data-tab-Reward" class="tab-pane col-lg-12">
+            <div class="reward-list">
+              <div class="list-section">
+                <div class="not-release">
+                  <h3 class="section-title col-lg-12">未開放</h3>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                    <p class="rest-step">あと4歩</p>
+                  </div>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                    <p class="rest-step">あと4歩</p>
+                  </div>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                    <p class="rest-step">あと4歩</p>
+                  </div>
+                </div>
+                </div>
+              <div class="list-section">
+                <div class="release">
+                  <h3 class="section-title col-lg-12">開放済み</h3>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                  </div>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                  </div>
+                  <div class="reward col-lg-4">
+                    <img src="">
+                    <h4 class="reward-name">アプリの完成</h4>
+                    <p class="abs-step">25歩目</p>
+                  </div>
+                </div>
+                </div>
+                <div class="list-section">
+                  <div class="done">
+                    <h3 class="section-title col-lg-12">実行済み</h3>
+                    <div class="reward col-lg-4">
+                      <img src="">
+                      <h4 class="reward-name">アプリの完成</h4>
+                      <p class="abs-step">25歩目</p>
+                    </div>
+                    <div class="reward col-lg-4">
+                      <img src="">
+                      <h4 class="reward-name">アプリの完成</h4>
+                      <p class="abs-step">25歩目</p>
+                    </div>
+                    <div class="reward col-lg-4">
+                      <img src="">
+                      <h4 class="reward-name">アプリの完成</h4>
+                      <p class="abs-step">25歩目</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
