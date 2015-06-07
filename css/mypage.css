@@ -1,0 +1,129 @@
+.float-left {
+  float: left;
+}
+body {
+  background-color: #ff6347;
+}
+#ToMatE-logo {
+  margin-left: 20px;
+}
+#logout {
+  background-color: #1E98B9;
+  color: white;
+  border: solid 1px #1e98b9;
+  border-radius: 10px;
+  float: right;
+  margin: 10px 10px 0 0 ;
+  padding: 10px;
+}
+#user-name {
+  margin: 30px 0 0 30px;
+  font-size: 30px;
+}
+#user-prof {
+  height: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #ffa3a7;
+  border: solid 1px #ffa3a7;
+  border-radius: 10px;
+}
+#user-step {
+  color: #1E98B9;
+  font-size: 20px;
+  border-bottom: solid 1px #1E98B9;
+}
+#user-steps-wrap h2 {
+  color: #555555;
+  font-size: 20px;
+}
+.nav-tabs a {
+  color: white;
+}
+.nav-tabs {
+  border: 0px;
+}
+th {
+  color: #dddddd;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+table {
+  margin: 30px auto;
+}
+.friend {
+  border: solid 1px black;
+  background-color: white;
+}
+.friend-row {
+  margin-top: 40px;
+}
+.friend-step {
+  text-align: right;
+  margin-top: 20px;
+}
+.friend-name {
+  text-align: center;
+}
+.friend-icon {
+  margin-top: 10px;
+}
+.task-list,
+.reward-list {
+  color: black;
+}
+.task,
+.reward {
+  border: solid 1px #000000;
+  border-radius: 10px;
+  background-color: white;
+}
+.tab-pane {
+  background-color: white;
+  padding-bottom: 50px;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+}
+.circle-R {
+  background-image: url("../img/point-circle-R.png");
+}
+.circle-G {
+  background-image: url("../img/point-circle-G.png");
+}
+.circle-B {
+  background-image: url("../img/point-circle-B.png");
+}
+.point {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 4px;
+  color: white;
+  margin: 15px 0 0 0;
+  display: inline-block;
+  float: left;
+}
+.limit-time,
+.rest-time,
+.isdone,
+.done-time,
+.abs-step,
+.rest-step {
+  color: white;
+  background-color: #ff6347;
+  width: 30%;
+  padding: 0 0 0 25px;
+  float: left;
+}
+.limit-time,
+.isdone,
+.abs-step {
+  margin-left: 10px;
+}
+.task-name {
+  float: left;
+  margin: 10px 90px 5px 10px;
+}
